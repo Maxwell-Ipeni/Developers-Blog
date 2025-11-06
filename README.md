@@ -17,7 +17,7 @@ Blog for developer's, Where developer's get the latest news and updates of Tech 
 ## DEVELOPMENT :
 
 1. Clone the Repo
-   [`https://github.com/abhisheknaiidu/Dev-s-Blog.git`](https://github.com/Maxwell-Ipeni/Developers-Blog)
+   [`https://github.com/Maxwell-Ipeni/Developers-Blog`]
    
 2. cd `Dev-s-Blog`
 
