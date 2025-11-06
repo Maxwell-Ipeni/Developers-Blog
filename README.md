@@ -1,4 +1,4 @@
-# DEV's BLOG
+# Developers BLOG
 
 Blog for developer's, Where developer's get the latest news and updates of Tech World in the form of GIF's!
 
