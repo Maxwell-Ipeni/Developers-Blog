@@ -26,7 +26,7 @@ Blog for developer's, Where developer's get the latest news and updates of Tech 
    
 4. `npm run serve`
 
-5. open `localhost:8081`
+5. open `localhost:3000`
 
 ## SCREENSHOTS :
 
