@@ -6,7 +6,17 @@ var expressSanitizer = require("express-sanitizer");
 var app = express();
 
 var url = process.env.DATABASEURL || "mongodb://localhost/blog_app"
-mongoose.connect(url);
+// Connect to MongoDB with sensible options and handle connection errors so
+// the server can still start (useful during local development when MongoDB
+// may not be running).
+mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
+    .then(function() {
+        console.log('Connected to MongoDB');
+    })
+    .catch(function(err) {
+        console.error('MongoDB connection error:', err && err.message ? err.message : err);
+        console.error('Continuing without MongoDB connection — some features may not work.');
+    });
 
 app.set("view engine", "ejs"); 
 
